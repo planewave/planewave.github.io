@@ -5,4 +5,8 @@ order: 4
 ---
 
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+My name is Xiao Liu. I am a DSP Engineer, Wireless Researcher, Ph.D. in Electrical Engineering. Currently, I am living in Vancouver, Canada.
+
+In this blog, I want to share my technical notes and thoughts with the world. It would be my pleasure if it could help someone in this field. 
+
+Open to remote jobs!
