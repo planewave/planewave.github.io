@@ -61,10 +61,10 @@ There is a Python script for it:
 You can run it directly, but if Python complains, you may try another Python interpreter (from Conda for example) to run it.
 After a while, all images are saved in the folder `/opt/homebrew/Cellar/uhd/4.1.0.5_1/share/uhd/images/`.
 
-Next, connect the USRP to the Macbook. Because there is no USB type A port on the Macbook Air, I used a USB A to C adaptor to connect the USRP.
+Next, connect the USRP to the Macbook. Because there is no USB Type-A port on the Macbook Air, I used a Type-A to Type-C adaptor to connect the USRP.
 
 To test the connectivity, run `uhd_usrp_probe` command. I have the printout like this:
-![uhd_usrp_probe](../assets/img/posts/uhd_usrp_probe.png)
+![uhd_usrp_probe](/assets/img/posts/uhd_usrp_probe.png)
 
 If you receive a warning message below, this is either you didn't download the images properly, or the system environment variable 'UHD_IMAGES_DIR' is not set correctly.
 
