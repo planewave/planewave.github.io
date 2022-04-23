@@ -13,11 +13,9 @@ In most cases, after decomposition, they always go down to two reasons: the lack
 It's a simple truth, but I took years to realize it.
 Many years ago when I started writing DSP code, all I cared about was the correctness.
 My code used to have no readability, no structure, and no efficiency.
-Later on, I became picky on code quality, but until recent years, I began to pay attention to efficiency.
-When you use Matlab a lot, you don't want to touch the memory or CPU load.
-Unless there is a heavy task or an algorithm that is going to be implemented on the hardware.
+Especially, when using Matlab, I used to pay no attention to the memory or CPU resource allocation, unless it is a heavy task or is going to be implemented on the hardware.
 
-I would like to write a series of notes on how to efficiently implement some DSP algorithms.
+Therefore, I want to write a series of posts on how to efficiently implement some DSP algorithms.
 I am going to start with the polyphase FIR filter downsampling.
 
 ## Conventional downsampling
