@@ -1,6 +1,6 @@
 ---
 title: 'Resampling: the Fourier Method'
-date: 2022-05-97 22:00:00
+date: 2022-05-07 22:00:00
 categories: [DSP esstntials]
 tags: [dsp, fourier, sampling]
 math: true
