@@ -10,13 +10,16 @@ math: false
 I almost use Matlab daily, and I see it is evolving in every release.
 However, I always have some complaints about its outdated GUI:
 The heavy toolbar reminds me of the MS office 2007.
+
+![Matlab toolbar](/assets/img/posts/Matlab_toolbar.png)
+
 I know it can be hidden, but these useful buttons will be hidden too.
 In addition, there is no dark theme, making it difficult to work at night.
 In this post, I will show you some alternative ways to use Matlab.
 
 ## Matlab IDE
 
-The *Matlab* we are talking about has multiple meanings: the programming language with an interpreter, and the Matlab desktop with a graphical user interface (GUI).
+The *Matlab* we are talking about has multiple meanings: the programming language with an interpreter, and the Matlab desktop with a GUI.
 If you are familiar with other programming languages, you will know that such an integrated development environment (IDE) is not always necessary, and there may be many IDEs available.
 
 To start Matlab without the desktop (Linux and macOS), you can use the command line:
@@ -29,7 +32,7 @@ Then you will enter the Matlab interactive terminal.
 For more startup options, for example `-nojvm`, see the [Matlab documentation](https://www.mathworks.com/help/matlab/startup-and-shutdown.html).
 
 My point is that the Matlab desktop is not necessary to run Matlab scripts, and we can use a third-party IDE to run Matlab scripts.
-As for 2022, the [VSCode](https://code.visualstudio.com/) is de facto the most popular IDE for coding in multiple languages.
+As for 2022, the [VSCode](https://code.visualstudio.com/) is de facto the go-to IDE for coding in multiple languages.
 
 ## VSCode extensions for Matlab
 
