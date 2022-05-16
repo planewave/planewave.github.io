@@ -49,6 +49,6 @@ There is no debug support, and no variable window (workspace), so it is not mean
 I heard rumors that Matlab is going to remake its GUI in a future release, and the Matlab online has already shipped with a dark theme (but still the old GUI layout).
 I hope they can have a VSCode-like GUI layout, and get rid of the JVM if possible.
 
-![Matlab online](/assets/img/posts/matlab_online.png)
+![Matlab online](/assets/img/posts/Matlab_online_dark.png)
 
 All right, that is all for this post. Thank you for reading.
