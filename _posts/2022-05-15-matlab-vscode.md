@@ -1,6 +1,6 @@
 ---
 title: 'Matlab Development in Visual Studio Code'
-date: 2022-05-17 17:00:00
+date: 2022-05-15 20:00:00
 categories: [Development Tools]
 tags: [matlab, vscode]
 math: false
@@ -40,7 +40,7 @@ There is a one-click solution called [Matlab Extension Pack](https://marketplace
 
 It includes 6 extensions, some of the important ones are:
 
-* MATLAB for Visual Studio Code: basic language support for MATLAB to VSCode. You will need to setup the linter (mlint) to make the most of it.
+* MATLAB for Visual Studio Code: basic language support for MATLAB to VSCode. You will need to set up the linter (`mlint`) to make the most of it.
 * Matlab Code Run: run Matlab scripts in VSCode. Open the command palette (under "View" or with shortcut ctr+shift+p) and find the "Run Matlab File" command.
 * Matlab Interactive Terminal for VSCode. This extension allows you to start an interactive Matlab session in VSCode like other terminals. MATLAB Engine API for Python, installations instruction is available [here](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html). I had some struggles with this extension installation on macOS, hope you can pull it out.
   
@@ -51,4 +51,4 @@ I hope they can have a VSCode-like GUI layout, and get rid of the JVM if possibl
 
 ![Matlab online](/assets/img/posts/matlab_online.png)
 
-All right, that is all for this post. Thank you for reading. 
+All right, that is all for this post. Thank you for reading.
