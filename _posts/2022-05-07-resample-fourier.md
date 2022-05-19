@@ -1,8 +1,8 @@
 ---
 title: 'Resampling: the Fourier Method'
 date: 2022-05-07 22:00:00
-categories: [DSP esstntials]
-tags: [dsp, fourier, sampling]
+categories: [DSP essentials]
+tags: [dsp, fourier, sampling, matlab]
 math: true
 # mermaid: true
 ---
@@ -41,7 +41,7 @@ Therefore, the Fourier method resampling has three general steps:
 
 During the FFT and IFFT, the number of points equals the number of signal samples.
 The number of frequency samples to remove or add can be found by the difference between the length of the original signal `n_original` and the resampled signal `n_resampled`.
-If the sampling rate of the original signal and the resampled signal are `fs_original` and `fs_resampled`, respectively, then the length of the resampled signal is: `n_resampled = (fs_resampled / fs_original) * n_original` and round to the nearest integer.
+If the sampling rate of the original signal and the resampled signal are `fs_original` and `fs_resampled`, respectively, then the length of the resampled signal is `n_resampled =` (fs_resampled / fs_original) * n_original` and round to the nearest integer.
 
 If the band of interest is not the low-frequency band, or around DC, a frequency shift can be introduced in the time domain.
 For the downsampling case, the wideband signal is multiplied by a carrier such that the band of interest is shifted to the low-frequency band (around DC), and then the signal is transformed to the frequency domain for resampling.

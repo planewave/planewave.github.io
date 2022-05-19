@@ -20,7 +20,7 @@ timezone: America/Vancouver
 
 title: Xiao Liu Tech Consulting                          # the main title
 
-tagline: Radio, audio, and beyond   # it will display as the sub-title
+tagline: DSP for radio, audio, and beyond   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   wireless communication, digital signal processing, radio, sofeware defined radio, RF, audio, machine learning
@@ -32,7 +32,7 @@ github:
   username: planewave             # change to your github username
 
 twitter:
-  username: liuxiao216            # change to your twitter username
+  username:                       # change to your twitter username
 
 social:
   # Change to your full name.

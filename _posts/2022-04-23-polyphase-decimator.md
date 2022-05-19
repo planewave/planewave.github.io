@@ -1,8 +1,8 @@
 ---
 title: 'Polyphase FIR Filter Downsampling'
 date: 2022-04-23 9:00:00
-categories: [DSP esstntials]
-tags: [dsp, polyphase, sampling]
+categories: [DSP essentials]
+tags: [dsp, polyphase, sampling, matlab]
 math: true
 # mermaid: true
 ---
