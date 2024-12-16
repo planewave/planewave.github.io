@@ -18,9 +18,9 @@ timezone: America/Vancouver
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Xiao Liu Tech Consulting                          # the main title
+title: Xiao's Spectrum of Life                          # the main title
 
-tagline: explore the world, build the future     # it will display as the sub-title
+tagline: Actively seeking jobs in Canada and the USA     # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   wireless communications, digital signal processing, sofeware defined radio, RF, Personal Development, mindset, economics, phychology, critical thinking, first principles
