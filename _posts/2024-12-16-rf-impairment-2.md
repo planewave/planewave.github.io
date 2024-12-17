@@ -27,7 +27,7 @@ In an amplifier’s linear operating region, output power is proportional to inp
 
 A key parameter here is the **1 dB compression point (P1dB)**, which defines the input power level at which the output power is 1 dB below the theoretical linear output. This marks the boundary between the linear and nonlinear operating regions.
 
-![Amplitude compression and P1dB (from everythingrf.com)](/assets/img/posts/p1b.webp)
+![Amplitude compression and P1dB (from everythingrf.com)](/assets/img/posts/p1b.webp){: width="400"}
 
 _Amplitude compression and P1dB (from everythingrf.com)_
 
@@ -35,7 +35,7 @@ Why is P1dB important? In applications where the linearity is critical, signal p
 
 **Example**: Amplifying a QAM signal beyond the linear region compresses the outermost constellation points, leading to distortion and degraded performance.
 
-![Amplitude Distortion for a QAM Signal (from Matlab Documentation)](/assets/img/posts/VisualizationOfRFImpairmentsExample_01.png)
+![Amplitude Distortion for a QAM Signal (from Matlab Documentation)](/assets/img/posts/VisualizationOfRFImpairmentsExample_01.png){: width="400"}
 
 _Amplitude Distortion for a QAM Signal (from Matlab Documentation)_
 
@@ -78,13 +78,13 @@ Special attention is given to $2f_1 - f_2$ and $2f_2 - f_1$ due to their:
 2. Proximity to the original signal frequencies, making them difficult to filter.
 3. Increase in power by 3 dB for every 1 dB increase in input power.
 
-![Intermodulation and third-order products (from Rohde & Schwarz)](/assets/img/posts/20241026234529.png)
+![Intermodulation and third-order products (from Rohde & Schwarz)](/assets/img/posts/20241026234529.png){: width="400"}
 
 _Intermodulation and third-order products (from Rohde & Schwarz)_
 
 Third-order intermodulation distortion (IMD) is particularly significant. Assuming the RF device does not saturate, the point at which third-order intermodulation power equals the fundamental output power is the **third-order intercept point (IP3 or IIP3)**. Though this point is theoretical due to compression effects, it serves as a key linearity metric. Higher IP3 values indicate better linearity and lower IMD.
 
-![the IP3 point (from Rohde & Schwarz)](/assets/img/posts/20241026234921.png)
+![the IP3 point (from Rohde & Schwarz)](/assets/img/posts/20241026234921.png){: width="400"}
 
 _the IP3 point (from Rohde & Schwarz)_
 
@@ -93,6 +93,7 @@ _the IP3 point (from Rohde & Schwarz)_
 I found an very useful YouTube video that explains [Third Order Intercept](https://youtu.be/m-2H8ddSwTI?si=wDd16dBQIV8LAg-k) and how to measure it.
 
 ![IP3 Measurement setup (from Rohde & Schwarz)](/assets/img/posts/20241027000754.png)
+
 ![IP3 Measurements (from Rohde & Schwarz)](/assets/img/posts/20241027000004.png)
 
 _IP3 Measurements (from Rohde & Schwarz)_
